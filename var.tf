@@ -8,7 +8,7 @@ variable "AWS_AMI_UBUNTU" {
     default = "ami-02c7683e4ca3ebf58"
 }
 variable "az" {
-    default = "eu-west-1"
+    default = "eu-west-1a"
 }
 variable "akey" {
     default = ""
