@@ -2,10 +2,10 @@ variable "AWS_REGION" {
     default = "eu-west-1"
 }
 variable "AWS_AMI" {
-    default = "ami-0435fcf800fb5418d"
+    default = "ami-09c54d172e7aa3d9a"
 }
 variable "AWS_AMI_UBUNTU" {
-    default = "ami-02c7683e4ca3ebf58"
+    default = "ami-09c54d172e7aa3d9a"
 }
 variable "az" {
     default = "eu-west-1a"
@@ -17,7 +17,7 @@ variable "skey" {
     default = ""
 }
 variable "pkey" {
-    default = "ecs-key"
+  default = "eu-west-1-key"
 }
 variable "rpass" {
     default = "111"
